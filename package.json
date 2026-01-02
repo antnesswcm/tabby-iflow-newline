@@ -1,0 +1,48 @@
+{
+  "name": "tabby-iflow-newline",
+  "version": "1.0.0",
+  "description": "在 iFlow 会话中正确处理 Ctrl+Enter 快捷键，发送标准换行与流控序列（\\u000A\\u0011），避免被 Tabby 默认快捷键拦截。",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabby",
+    "tabby-plugin",
+    "terminal",
+    "hotkey",
+    "iflow",
+    "newline"
+  ],
+  "author": "ABen",
+  "license": "ISC",
+  "type": "commonjs",
+  "peerDependencies": {
+    "@angular/core": "^15.0.0",
+    "@angular/common": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "tabby-core": "^1.0.197-nightly.1",
+    "tabby-terminal": "^1.0.197-nightly.1",
+    "tabby-settings": "^1.0.197-nightly.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben91lin/tabby-clear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ben91lin/tabby-clear/issues"
+  },
+  "homepage": "https://github.com/ben91lin/tabby-clear#readme",
+  "tabbyPlugin": {
+    "name": "tabby-iflow-newline",
+    "displayName": "iflow Newline",
+    "description": "Adds Ctrl-Enter hotkey to send iflow newline sequence (\\u000A\\u0011)"
+  }
+}
