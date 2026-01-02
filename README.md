@@ -23,25 +23,11 @@
 
 ## 安装
 
-### 通过 Tabby 插件管理器（推荐）
-
-1. 打开 Tabby
-2. 进入 **设置** → **插件**
-3. 搜索 "**iflow Newline**"
-4. 点击 **安装**
-
 ### 手动安装
 
-```bash
-npm install -g tabby-iflow-newline
-```
-
-### 开发环境安装
-
-1. 克隆此仓库
-2. 安装依赖：`npm install`
-3. 构建插件：`npx tsc`
-4. 将 `dist` 文件夹复制到您的 Tabby 插件目录
+1. 将整个项目文件夹复制到 Tabby 的插件目录
+2. 在项目目录中运行构建命令：`npm install && npx tsc`
+3. 重启 Tabby
 
 ## 开发
 
